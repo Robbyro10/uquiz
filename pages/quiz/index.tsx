@@ -54,6 +54,7 @@ const QuizPage = () => {
             src={criminal}
             alt="cartoon criminal"
             height={230}
+            priority
             className="opacity-40 grayscale "
           />
         </div>

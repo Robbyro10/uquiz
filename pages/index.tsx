@@ -61,9 +61,9 @@ export default function Home() {
       <div className="flex justify-center mt-48">
         <Image
           src={criminal}
+          priority
           alt="cartoon criminal"
-          height={230}
-          className="opacity-40 grayscale "
+          className="opacity-40 grayscale"
         />
       </div>
     </QuizLayout>
