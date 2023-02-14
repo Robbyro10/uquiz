@@ -17,7 +17,7 @@ export const crimes = [
   },
   {
     title: "Small theft",
-    desc: "You'll take some money off of your friend's wallet, or a little bag of Doritos from the gas station. Either way, you should be ashamed of yourself.",
+    desc: "You'll take some money off of your friend's wallet, or a little bag of Doritos from the gas station. Either way, you should be ashamed of yourself. If you're gonna rob at least commit to it.",
     img: theft
   },
   {
@@ -32,7 +32,7 @@ export const crimes = [
   },
   {
     title: "Trafficking",
-    desc: "Your financial situtation got a bit rough so you decided to help the community by providing them with criminalized products or services. You made some good money but got caught eventually with 2 pounds of cocaine in your butthole and a face filled with regret.",
+    desc: "Your financial situation got a bit rough so you decided to help the community by providing them with criminalized products or services. You made some good money but got caught eventually with 2 pounds of cocaine in your butthole and a face filled with regret.",
     img: trafficking
   },
   {
@@ -57,7 +57,7 @@ export const crimes = [
   },
   {
     title: "Homicide",
-    desc: "Maybe it was revenge. It could have been quick or slow. It could have been a friend, enemy or total stranger. Either way, you enjoyed it, cause your a psycopath.",
+    desc: "Maybe it was revenge. It could have been quick or slow. It could have been a friend, enemy or total stranger. Either way, you enjoyed it, cause you're a psycopath.",
     img: homicide
   },
 ];
