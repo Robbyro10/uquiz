@@ -34,7 +34,7 @@ export default function Home() {
     >
       <Title body="Which will be your next crime?" />
       <h2 className="text-center mb-4 text-sm">
-        Hey folk's Mr. Hedderich over here. I made this incredibly aesthetic
+        Hey folk&apos;s Mr. Hedderich over here. I made this incredibly aesthetic
         quiz with love and passion. With this
         test you will determine your next crime <b>(100% CERTIFIED)</b>.{" "}
         <i>Results will not be saved or registered in any way.</i>

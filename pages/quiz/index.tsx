@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import { useContext, useState } from "react";
 import criminal from "../../public/criminal.png";
 
-const index = () => {
+const QuizPage = () => {
   const questions = quizData;
   const [questionNumber, setQuestionNumber] = useState(0);
   const { getScore } = useContext(QuizContext);
@@ -62,4 +62,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default QuizPage;

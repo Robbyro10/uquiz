@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { useContext } from "react";
 
-const results = () => {
+const ResultsPage = () => {
   const router = useRouter();
   const {score, name} = useContext(QuizContext)
   const result = calculateResult(score)
@@ -34,4 +34,4 @@ const results = () => {
   );
 };
 
-export default results;
+export default ResultsPage;
