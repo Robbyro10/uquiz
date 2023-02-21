@@ -23,23 +23,21 @@ const ResultsPage = () => {
         <Title body={result.title} />
         <p>{result.desc}</p>
       </div>
-      <div className="flex justify-center">
-      <div className="flex flex-col mt-10">
-        <Image
-          src={result.img}
-          alt={result.title}
-          className="my-10 rounded drop-shadow"
-        />
-      <button
-        className="bg-pink-400 hover:bg-pink-300 rounded py-4 px-4 font-bold text-white transition ease-linear drop-shadow "
-        onClick={() => router.push("/")}
-      >
-        Retake Test
-      </button>
+      <div className="flex justify-center mx-4">
+        <div className="flex flex-col mt-10">
+          <Image
+            src={result.img}
+            alt={result.title}
+            className="my-10 rounded drop-shadow"
+          />
+          <button
+            className="bg-pink-400 hover:bg-pink-300 rounded py-4 px-4 font-bold text-white transition ease-linear drop-shadow "
+            onClick={() => router.push("/")}
+          >
+            Retake Test
+          </button>
+        </div>
       </div>
-
-      </div>
-
     </QuizLayout>
   );
 };

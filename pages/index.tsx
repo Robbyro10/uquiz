@@ -62,12 +62,13 @@ export default function Home() {
           Start
         </button>
       </div>
-      <div className="flex justify-center mt-48">
+      <div className="flex justify-center mt-24">
         <Image
           src={criminal}
           priority
           alt="cartoon criminal"
           className="opacity-40 grayscale"
+          width={300}
         />
       </div>
     </QuizLayout>

@@ -9,7 +9,7 @@ interface Props extends PropsWithChildren {
 
 export const QuizLayout: FC<Props> = ({children, title, pageDescription}) => {
   return (
-    <>
+    <div className='flex flex-col py-3'>
     <Head>
         <title>{title}</title>
         <meta name="description" content={pageDescription} />
@@ -20,6 +20,6 @@ export const QuizLayout: FC<Props> = ({children, title, pageDescription}) => {
         {children}
     </main>
     <Footer />
-    </>
+    </div>
   )
 }
